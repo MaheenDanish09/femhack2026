@@ -1,0 +1,164 @@
+* {
+    font-family: "Roboto", sans-serif !important;
+}
+
+:root {
+    --primary-color: #0066FF !important;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+.herocontent h1 {
+    font-weight: 900 !important;
+    font-size: 50px !important;
+}
+
+.herocontent p {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+}
+
+.logospart img {
+    margin-right: 2em !important;
+}
+
+.logospart {
+    margin: 4em 5em 2em 15em !important;
+}
+
+.benefitscards .card img {
+    border-radius: 50% !important;
+    height: 50px !important;
+    width: 50px !important;
+    margin: auto;
+}
+
+.benefits h1 {
+    font-weight: 900 !important;
+    text-align: center !important;
+}
+
+.benefitscards .card {
+    background-color: rgb(222, 221, 221) !important;
+    border: none !important;
+}
+
+.growth h1 {
+    font-weight: 900 !important;
+}
+
+.growthcards .card {
+    background-color: rgb(222, 221, 221) !important;
+    border: none !important;
+}
+
+.clovincard {
+    max-width: 25em !important;
+    text-align: center;
+    margin: 0 auto !important;
+}
+
+.clovincredit {
+    margin: 0 4em !important;
+}
+
+.templates button {
+    margin-left: 29em !important;
+}
+
+.integrations,
+.cta {
+    background-color: rgb(215, 212, 212) !important;
+    border-radius: 10px !important;
+}
+
+.features button {
+    background-color: rgb(222, 220, 220) !important;
+}
+
+.ctaimage img {
+    max-height: 20em !important;
+    max-width: 13em !important;
+}
+
+.faqs_box {
+    width: 100%;
+    min-height: 480px;
+}
+
+.qa_container {
+
+    text-align: left;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 700px;
+    gap: 10px;
+
+}
+
+.qa_box h3 {
+    cursor: pointer;
+}
+
+/* .qa_box h3 span{
+    float: right;
+} */
+
+.ans {
+    margin-top: 10px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-5px);
+    transition:
+        max-height 1s ease,
+        opacity 1s ease,
+        transform 1s ease;
+}
+
+.qa_box:hover .ans {
+    max-height: 100px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.all_comp_logo img {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.cta2 .content {
+    margin: auto;
+    /* text-align: center; */
+}
+
+.cta2 {
+    margin-bottom: 0;
+}
+
+footer {
+    width: 100%;
+    min-height: 420px;
+    background-color: black;
+    color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 80px;
+    padding: 50px 100px;
+}
+
+.footer_cols,
+.footer_cols ul {
+    max-width: 400px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_cols h3 {
+    padding-bottom: 20px;
+}
